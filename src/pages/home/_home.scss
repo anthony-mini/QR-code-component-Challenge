@@ -45,3 +45,11 @@ text-align: center;
 letter-spacing: 0.1875px;
 color: #7D889E;
 }
+
+@media screen and (min-width: map-get($breakpoint, mobile)){
+    .card-qr{
+        width: 288px;
+        height: 288px;
+        border-radius: 10px;
+    }
+}
